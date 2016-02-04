@@ -13,10 +13,10 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "modules/embed/index.html",
-  "files": ["modules/embed/controller.js"],
+  "view": "http://resources.kingofapp.com/modules/embed/index.html",
+  "files": ["http://resources.kingofapp.com/modules/embed/controller.js"],
   "scope": {
-    "url": "http://es.lipsum.com"
+    "url": ""
   },
   "config": [{
     "templateOptions": {
