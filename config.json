@@ -1,55 +1,63 @@
 {
-  "name" : "Embed Example",
-  "identifier" : "embed",
-  "description" : "Esta opción te permite incrustar una página web en tu App. De este modo tus seguidores podrán navegar por ella sin necesidad de abandonar la aplicación. Para ello solo será necesario que entres la dirección web que quieras compartir. P.e. http://www.kingofapp.com",
-  "icon" : "code",
-  "documentation" : "# **(How to) Configurar el Embed Module**\r\n\r\nSi bien no es especialmente recomendable su uso (a los markets y especialmente a **Apple**, no les acaba de gustar este formato) hay ocasiones en que no queda m\u00E1s remedio que **embeber una p\u00E1gina web en una App**. Para estos casos, en King of App hemos desarrollado este m\u00F3dulo de r\u00E1pida y f\u00E1cil configuraci\u00F3n.\r\n\r\nAl tratarse de un contenido embebido s\u00F3lo hay que rellenar el campo habilitado con **la URL de destino**. Nada m\u00E1s y nada menos. Nosotros nos encargamos de que salga en pantalla cogiendo los **par\u00E1metros responsive** de la web.\r\n\r\nLo dicho, si bien este m\u00F3dulo te puede ayudar en m\u00FAltiples ocasiones, como todo gran poder, hay que saber utilizarlo con moderaci\u00F3n y siempre combinado con otros m\u00F3dulos de contenido.",
-  "type" : "A",
-  "version" : "1.0",
-  "author" : "King of App",
-  "category" : [
-      "others"
+  "name": "Embed Example",
+  "identifier": "embed",
+  "description": {
+    "es-ES": "Esta opción te permite incrustar una página web en tu App. De este modo tus seguidores podrán navegar por ella sin necesidad de abandonar la aplicación. Para ello solo será necesario que entres la dirección web que quieras compartir. P.e. http://www.kingofapp.com",
+    "en-US": "Esta opción te permite incrustar una página web en tu App. De este modo tus seguidores podrán navegar por ella sin necesidad de abandonar la aplicación. Para ello solo será necesario que entres la dirección web que quieras compartir. P.e. http://www.kingofapp.com"
+  },
+  "icon": "code",
+  "documentation": {
+    "es-ES": "# **(How to) Configurar el Embed Module**\r\n\r\nSi bien no es especialmente recomendable su uso (a los markets y especialmente a **Apple**, no les acaba de gustar este formato) hay ocasiones en que no queda m\u00E1s remedio que **embeber una p\u00E1gina web en una App**. Para estos casos, en King of App hemos desarrollado este m\u00F3dulo de r\u00E1pida y f\u00E1cil configuraci\u00F3n.\r\n\r\nAl tratarse de un contenido embebido s\u00F3lo hay que rellenar el campo habilitado con **la URL de destino**. Nada m\u00E1s y nada menos. Nosotros nos encargamos de que salga en pantalla cogiendo los **par\u00E1metros responsive** de la web.\r\n\r\nLo dicho, si bien este m\u00F3dulo te puede ayudar en m\u00FAltiples ocasiones, como todo gran poder, hay que saber utilizarlo con moderaci\u00F3n y siempre combinado con otros m\u00F3dulos de contenido.",
+    "en-US": "# **(How to) Configurar el Embed Module**\r\n\r\nSi bien no es especialmente recomendable su uso (a los markets y especialmente a **Apple**, no les acaba de gustar este formato) hay ocasiones en que no queda m\u00E1s remedio que **embeber una p\u00E1gina web en una App**. Para estos casos, en King of App hemos desarrollado este m\u00F3dulo de r\u00E1pida y f\u00E1cil configuraci\u00F3n.\r\n\r\nAl tratarse de un contenido embebido s\u00F3lo hay que rellenar el campo habilitado con **la URL de destino**. Nada m\u00E1s y nada menos. Nosotros nos encargamos de que salga en pantalla cogiendo los **par\u00E1metros responsive** de la web.\r\n\r\nLo dicho, si bien este m\u00F3dulo te puede ayudar en m\u00FAltiples ocasiones, como todo gran poder, hay que saber utilizarlo con moderaci\u00F3n y siempre combinado con otros m\u00F3dulos de contenido."
+  },
+  "descriptionShort": {
+    "es-ES": "Esta opción te permite incrustar una página web dentro de tu App!",
+    "en-US": "Esta opción te permite incrustar una página web dentro de tu App!"
+  },
+  "type": "A",
+  "version": "1.0",
+  "author": "King of App",
+  "category": [
+    "others"
   ],
-  "price" : 0,
+  "price": 0,
   "subscription": false,
-  "platforms" : [
-      "android",
-      "ios",
-      "windows"
+  "canContain": false,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
   ],
-  "view" : "modules/embed/index.html",
-  "files" : [
-      "modules/embed/controller.js"
+  "view": "modules/embed/index.html",
+  "files": [
+    "modules/embed/controller.js"
   ],
-  "scope" : {
-      "url" : ""
+  "scope": {
+    "url": ""
   },
-  "config" : [
-      {
-          "templateOptions" : {
-              "label" : "url",
-              "pattern" : "(https?://)([/\\w.()-]*).*",
-              "required" : true,
-              "description" : "url del embed"
-          },
-          "type" : "input",
-          "key" : "url"
-      }
-  ],
-  "showOn" : {
-      "menu" : true,
-      "market" : true,
-      "dragDrop" : true
+  "config": [{
+    "templateOptions": {
+      "label": "url",
+      "pattern": "(https?://)([/\\w.()-]*).*",
+      "required": true,
+      "description": "url del embed"
+    },
+    "type": "input",
+    "key": "url"
+  }],
+  "showOn": {
+    "menu": true,
+    "market": true,
+    "dragDrop": true
   },
-  "images" : {
-      "screenshots" : [
-          "./images/modules/embed_screenshot01.png",
-          "./images/modules/embed_screenshot02.png"
-      ],
-      "popover" : "./images/modules/embed.png",
-      "banner" : "./images/modules/embed_banner.png",
-      "logo" : "./images/modules/embed_logo.png",
-      "list" : "./images/modules/embed.png"
-  },
-  "descriptionShort" : "Esta opción te permite incrustar una página web dentro de tu App!"
+  "images": {
+    "list": "images/modules/list.png",
+    "screenshots": [
+      "images/modules/screenshot01.png",
+      "images/modules/screenshot02.png"
+    ],
+    "popover": "images/modules/popover.png",
+    "banner": "images/modules/banner.png",
+    "logo": "images/modules/logo.png"
+  }
 }
