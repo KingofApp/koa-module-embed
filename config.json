@@ -30,7 +30,8 @@
   ],
   "view": "modules/embed/index.html",
   "files": [
-    "modules/embed/controller.js"
+    "modules/embed/controller.js",
+    "modules/embed/styles.html"
   ],
   "scope": {
     "url": ""
