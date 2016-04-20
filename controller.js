@@ -6,8 +6,7 @@ loadFunction.$inject = ['$scope', 'structureService', 'storageService', '$locati
 function loadFunction($scope, structureService, storageService, $location) {
   //Register upper level modules
   structureService.registerModule($location, $scope, 'embed');
-
-  $scope.embed.showLogin = false;
+  $scope.embed.showLogin = false
 
   storageService.get('embedLogin').then(function(data) {
     if (data && data.value) {

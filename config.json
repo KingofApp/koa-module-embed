@@ -31,6 +31,7 @@
   "view": "modules/embed/index.html",
   "files": [
     "modules/embed/controller.js",
+    "modules/embed/directive.js",
     "modules/embed/styles.html"
   ],
   "scope": {
