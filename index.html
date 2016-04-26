@@ -1,11 +1,10 @@
 <div ng-controller="embedCtrl" class="module embed">
   <iframe hide-onload name="embedtest" id="embedtest" type="text/html" allowfullscreen=""
-    ng-src="{{embed.modulescope.url}}"
     frameborder="0"
     width="100%"
     height="100%"
     style="position:absolute"></iframe>
-    <div class='iframeLoading'>
+    <div ng-if="embed.showLoading" class='iframeLoading'>
       <img ng-src="{{loader}}" alt="" />
     </div>
     <koa-nano></koa-nano>
