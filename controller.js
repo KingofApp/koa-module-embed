@@ -26,7 +26,9 @@ function loadFunction($scope, structureService, storageService, $location) {
     }else{
       post($scope.embed.modulescope.url, {});
     }
-    $('html,body').animate({scrollTop: 0 });
+    setTimeout(function () {
+      $('html,body').animate({scrollTop: 0 });
+    }, 100);
   });
 
 
