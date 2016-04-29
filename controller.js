@@ -7,7 +7,7 @@ function loadFunction($scope, structureService, storageService, $location) {
   //Register upper level modules
   structureService.registerModule($location, $scope, 'embed');
   $scope.embed.showLogin = false;
-  $scope.embed.showLoading = false;
+  $scope.embed.showLoading = true;
 
   $scope.redirectToLogin = function() {
     storageService.del('embedLogin').then(function(data) {
