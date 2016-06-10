@@ -1,5 +1,5 @@
 {
-  "name": "Embed Example",
+  "name": "Embed",
   "identifier": "embed",
   "description": {
     "es-ES": "Esta opción te permite incrustar una página web en tu App. De este modo tus seguidores podrán navegar por ella sin necesidad de abandonar la aplicación. Para ello solo será necesario que entres la dirección web que quieras compartir. P.e. http://www.kingofapp.com",
@@ -30,6 +30,7 @@
   ],
   "view": "modules/embed/index.html",
   "files": [
+    "bower_components/iframe-resizer/js/iframeResizer.min.js",
     "modules/embed/controller.js",
     "modules/embed/directive.js",
     "modules/embed/styles.html"
@@ -55,11 +56,11 @@
   "images": {
     "list": "modules/embed/images/embed_list.png",
     "screenshots": [
-      "modules/embed/images/Embed_screenshot01.png",
-      "modules/embed/images/Embed_screenshot02.png"
+      "modules/embed/images/embed_screenshot01.png",
+      "modules/embed/images/embed_screenshot02.png"
     ],
-    "popover": "modules/embed/images/Embed_popover.png",
-    "banner": "modules/embed/images/Embed_popover.png",
+    "popover": "modules/embed/images/embed_popover.png",
+    "banner": "modules/embed/images/embed_popover.png",
     "logo": "modules/embed/images/embed_icon.png"
   }
 }
