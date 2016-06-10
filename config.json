@@ -30,10 +30,15 @@
   ],
   "view": "modules/embed/index.html",
   "files": [
-    "bower_components/iframe-resizer/js/iframeResizer.min.js",
     "modules/embed/controller.js",
     "modules/embed/directive.js",
     "modules/embed/styles.html"
+  ],
+  "libs": [
+    {
+      "bower": { "iframe-resizer": "^3.5.3" },
+      "src": "bower_components/iframe-resizer/js/iframeResizer.min.js"
+    }
   ],
   "scope": {
     "url": ""
