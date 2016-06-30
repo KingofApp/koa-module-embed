@@ -1,4 +1,4 @@
-# **(How to) Configurar el Embed Module**
+# **(How to) Configurar el embed Module**
 
 Si bien no es especialmente recomendable su uso (a los markets y especialmente a **Apple**, no les acaba de gustar este formato) hay ocasiones en que no queda más remedio que **embeber una página web en una App**. Para estos casos, en King of App hemos desarrollado este módulo de rápida y fácil configuración.
 
