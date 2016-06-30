@@ -7,5 +7,7 @@ function loadFunction($scope, structureService, storageService, $location) {
   //Register upper level modules
   structureService.registerModule($location, $scope, 'embed');
 
-  $scope.embed.showLoading = true;
+  setTimeout(function () {
+    structureService.launchSpinner('.transitionloader');
+  }, 100);
 }

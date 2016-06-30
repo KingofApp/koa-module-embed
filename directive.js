@@ -6,8 +6,7 @@
       },
       link: function(scope, element, attrs){
           element.on('load', function(){
-              scope.$parent.iframe.showLoading=false;
-              element.parent().find("div.iframeLoading").hide();
+              element.parent().find("div.embedLoading").remove(); // Using remove to prevent spinner to overload
               iFrameResize({log:true});
               return scope.callBack();
           })
