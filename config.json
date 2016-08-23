@@ -64,8 +64,8 @@
       "modules/embed/images/Embed_screenshot01.png",
       "modules/embed/images/Embed_screenshot02.png"
     ],
-    "popover": "modules/embed/images/banner.png",
-    "banner": "modules/embed/images/banner.png",
+    "popover": "modules/embed/images/banner1.png",
+    "banner": "modules/embed/images/banner1.png",
     "logo": "modules/embed/images/icon.png"
   }
 }
