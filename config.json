@@ -59,13 +59,13 @@
     "dragDrop": true
   },
   "images": {
-    "list": "modules/embed/images/embed_list.png",
+    "list": "modules/embed/images/list.png",
     "screenshots": [
-      "modules/embed/images/embed_screenshot01.png",
-      "modules/embed/images/embed_screenshot02.png"
+      "modules/embed/images/Embed_screenshot01.png",
+      "modules/embed/images/Embed_screenshot02.png"
     ],
-    "popover": "modules/embed/images/embed_popover.png",
-    "banner": "modules/embed/images/embed_popover.png",
-    "logo": "modules/embed/images/embed_icon.png"
+    "popover": "modules/embed/images/banner.png",
+    "banner": "modules/embed/images/banner.png",
+    "logo": "modules/embed/images/icon.png"
   }
 }
