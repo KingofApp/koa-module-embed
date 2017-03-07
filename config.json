@@ -2,20 +2,20 @@
   "name": "Embed",
   "identifier": "embed",
   "description": {
-    "es-ES": "Esta opción te permite incrustar una página web en tu App. De este modo tus seguidores podrán navegar por ella sin necesidad de abandonar la aplicación. Para ello solo será necesario que entres la dirección web que quieras compartir. P.e. http://www.kingofapp.com",
-    "en-US": "Esta opción te permite incrustar una página web en tu App. De este modo tus seguidores podrán navegar por ella sin necesidad de abandonar la aplicación. Para ello solo será necesario que entres la dirección web que quieras compartir. P.e. http://www.kingofapp.com"
+    "es-ES": "Mejora la experiencia y la navegación de tus seguidores, incrustando tu página web directamente en la aplicación que estás desarrollando. Simplemente entra la dirección de tu página y sincroniza el contenido para ofrecer el mejor servicio a tus clientes.",
+    "en-US": "Improve the experience and the navigation of your followers, embedding your web page directly into the application you are developing. Simply enter your web address and synchronize its content to offer the best service to your customers."
   },
   "documentation": {
     "es-ES": "modules/embed/documentation/es_ES.md",
     "en-US": "modules/embed/documentation/en_US.md"
   },
   "descriptionShort": {
-    "es-ES": "Esta opción te permite incrustar una página web dentro de tu App!",
-    "en-US": "Esta opción te permite incrustar una página web dentro de tu App!"
+    "es-ES": "Incrusta una página web en tu App!",
+    "en-US": "Embed a webpage inside of your app!"
   },
   "icon": "code",
   "type": "A",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "King of App",
   "category": [
     "others"
