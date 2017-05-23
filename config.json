@@ -1,71 +1,75 @@
 {
-  "name": "Embed",
-  "identifier": "embed",
-  "description": {
-    "es-ES": "Mejora la experiencia y la navegación de tus seguidores, incrustando tu página web directamente en la aplicación que estás desarrollando. Simplemente entra la dirección de tu página y sincroniza el contenido para ofrecer el mejor servicio a tus clientes.",
-    "en-US": "Improve the experience and the navigation of your followers, embedding your web page directly into the application you are developing. Simply enter your web address and synchronize its content to offer the best service to your customers."
-  },
-  "documentation": {
-    "es-ES": "modules/embed/documentation/es_ES.md",
-    "en-US": "modules/embed/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Incrusta una página web en tu App!",
-    "en-US": "Embed a webpage inside of your app!"
-  },
-  "icon": "code",
-  "type": "A",
-  "version": "1.0.8",
-  "author": "King of App",
-  "category": [
-    "others"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/embed/index.html",
-  "files": [
-    "modules/embed/controller.js",
-    "modules/embed/directive.js",
-    "modules/embed/styles.html"
-  ],
-  "libs": [
-    {
-      "bower": { "iframe-resizer": "^3.5.3" },
-      "src": "bower_components/iframe-resizer/js/iframeResizer.min.js"
-    }
-  ],
-  "scope": {
-    "url": ""
-  },
-  "config": [{
-    "templateOptions": {
-      "label": "url",
-      "pattern": "(https?://)([/\\w.()-]*).*",
-      "required": true,
-      "description": "url del embed"
+    "name": "Embed",
+    "identifier": "embed",
+    "description": {
+        "es-ES": "Mejora la experiencia y la navegación de tus seguidores, incrustando tu página web directamente en la aplicación que estás desarrollando. Simplemente entra la dirección de tu página y sincroniza el contenido para ofrecer el mejor servicio a tus clientes.",
+        "en-US": "Improve the experience and the navigation of your followers, embedding your web page directly into the application you are developing. Simply enter your web address and synchronize its content to offer the best service to your customers."
     },
-    "type": "input",
-    "key": "url"
-  }],
-  "showOn": {
-    "menu": true,
-    "market": true,
-    "dragDrop": true
-  },
-  "images": {
-    "list": "modules/embed/images/list.png",
-    "screenshots": [
-      "modules/embed/images/Embed_screenshot01.png",
-      "modules/embed/images/Embed_screenshot02.png"
+    "documentation": {
+        "es-ES": "modules/embed/documentation/es_ES.md",
+        "en-US": "modules/embed/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Incrusta una página web en tu App!",
+        "en-US": "Embed a webpage inside of your app!"
+    },
+    "icon": "code",
+    "type": "A",
+    "version": "1.0.9",
+    "author": "King of App",
+    "category": [
+        "others"
     ],
-    "popover": "modules/embed/images/banner1.png",
-    "banner": "modules/embed/images/banner1.png",
-    "logo": "modules/embed/images/icon.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/embed/index.html",
+    "files": [
+        "modules/embed/controller.js",
+        "modules/embed/directive.js",
+        "modules/embed/styles.html"
+    ],
+    "libs": [
+        {
+            "bower": {
+                "iframe-resizer": "^3.5.3"
+            },
+            "src": "bower_components/iframe-resizer/js/iframeResizer.min.js"
+        }
+    ],
+    "scope": {
+        "url": ""
+    },
+    "config": [
+        {
+            "templateOptions": {
+                "label": "url",
+                "pattern": "(https?://)([/\\w.()-]*).*",
+                "required": true,
+                "description": "url del embed"
+            },
+            "type": "input",
+            "key": "url"
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/embed/images/list.png",
+        "screenshots": [
+            "modules/embed/images/Embed_screenshot01.png",
+            "modules/embed/images/Embed_screenshot02.png"
+        ],
+        "popover": "modules/embed/images/banner1.png",
+        "banner": "modules/embed/images/banner1.png",
+        "logo": "modules/embed/images/icon.png"
+    }
 }
