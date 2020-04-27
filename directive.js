@@ -7,7 +7,7 @@
       link: function(scope, element, attrs){
           element.on('load', function(){
               element.parent().find("div.embedLoading").remove(); // Using remove to prevent spinner to overload
-              iFrameResize({log:true, scrolling:true});
+              iFrameResize({log:false, scrolling:true});
               return scope.callBack();
           })
       }
