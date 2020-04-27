@@ -1,5 +1,9 @@
 {
     "name": "Embed",
+    "name-lang": {
+        "es-ES": "Embed",
+        "en-US": "Embed"
+    },
     "identifier": "embed",
     "description": {
         "es-ES": "Mejora la experiencia y la navegación de tus seguidores, incrustando tu página web directamente en la aplicación que estás desarrollando. Simplemente entra la dirección de tu página y sincroniza el contenido para ofrecer el mejor servicio a tus clientes.",
@@ -45,6 +49,14 @@
     "scope": {
         "url": ""
     },
+    "scope-lang": {
+        "es-ES": {
+            "langUrl": ""
+        },
+        "en-US":{
+            "langUrl": ""
+        }
+    },
     "config": [
         {
             "templateOptions": {
@@ -55,6 +67,18 @@
             },
             "type": "input",
             "key": "url"
+        }
+    ],
+     "config-lang":[
+        {
+            "templateOptions": {
+                "label": "url",
+                "pattern": "(https?://)([/\\w.()-]*).*",
+                "required": true,
+                "description": "url del embed"
+            },
+            "type": "input",
+            "key": "langUrl"
         }
     ],
     "showOn": {
