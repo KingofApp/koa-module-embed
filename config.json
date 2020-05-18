@@ -74,7 +74,6 @@
             "templateOptions": {
                 "label": "url",
                 "pattern": "(https?://)([/\\w.()-]*).*",
-                "required": true,
                 "description": "url del embed"
             },
             "type": "input",
