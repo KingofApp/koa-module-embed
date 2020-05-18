@@ -19,7 +19,7 @@
     },
     "icon": "code",
     "type": "A",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "author": "King of App",
     "category": [
         "others"
@@ -74,7 +74,6 @@
             "templateOptions": {
                 "label": "url",
                 "pattern": "(https?://)([/\\w.()-]*).*",
-                "required": true,
                 "description": "url del embed"
             },
             "type": "input",
